@@ -36,6 +36,10 @@ body {
     font-family: "Centra", sans-serif !important;
 }
 
+strong {
+    color: #16c47f;
+}
+
 .logo-top {
     color: greenyellow;
 }
@@ -278,8 +282,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     display: block;
 }
 .banner p {
-    color: #b8b8b8;
-    font-size: 18px;
+    color: #b8b8b1;
+    font-size: 24px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 96%;
@@ -338,19 +342,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill p {
     color: #b8b8b8;
-    font-size: 18px;
+    font-size: 24px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 14px 0 50px 0;
+    text-align: left;
 }
 .skill-slider {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     position: relative;
 }
 .skill-slider .item img {
     width: 50%;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 10px auto;
 }
 .background-image-left {
     top: 28%;
@@ -358,6 +363,81 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     bottom: 0;
     width: 40%;
     z-index: -4;
+}
+
+.skill-list {
+    font-size: 25px;
+    text-align: left;
+}
+
+/************* TimeLine *******************/
+/*Timeline*/
+.timeline {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.timeline a {
+    color: #16c47f;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.invisible {
+    color: #000;
+}
+
+.timeline .timeline-item {
+    position: relative;
+    padding-left: 3rem;
+    border-left: 1.5px solid #31363f;
+    text-align: left;
+}
+.timeline .timeline-item .tl-icon {
+    position: absolute;
+    left: -27px;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+/* .timeline .timeline-item .tl-duration {
+    padding: 0.2rem 0.6rem;
+    background-color: var(--color-grey-5);
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+} */
+.timeline .timeline-item h5 {
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3dc2ec;
+}
+.timeline .timeline-item h5 span {
+    color: greenyellow;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.timeline .timeline-item ol {
+    list-style-type: disc;
+    font-size: 1.4rem;
 }
 
 /************ Projects Css ************/
