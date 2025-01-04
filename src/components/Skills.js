@@ -108,10 +108,10 @@ export const Skills = () => {
                                 </strong>
                                 VSCode, Eclipse.
                             </div>
-                            <div class="timeline">
+                            <div className="timeline">
                                 <h2>Professional Timeline</h2>
-                                <div class="timeline-item">
-                                    <div class="tl-icon">
+                                <div className="timeline-item">
+                                    <div className="tl-icon">
                                         <FaBriefcase />
                                     </div>
                                     <h5 className="align-center">
