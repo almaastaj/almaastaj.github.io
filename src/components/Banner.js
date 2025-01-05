@@ -89,12 +89,6 @@ export const Banner = () => {
                                         the tools that redefine the boundaries
                                         of what's possible.
                                     </p>
-                                    {/* <button
-                                        onClick={() => console.log("connect")}
-                                    >
-                                        Let’s Connect{" "}
-                                        <ArrowRightCircle size={25} />
-                                    </button> */}
                                 </div>
                             )}
                         </TrackVisibility>
