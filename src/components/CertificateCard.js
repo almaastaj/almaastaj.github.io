@@ -1,16 +1,14 @@
 import { Col } from "react-bootstrap";
-import { FaGithub, FaGlobe } from "react-icons/fa";
+import { MdVerifiedUser } from "react-icons/md";
 import { useState } from "react";
-
-export const ProjectCard = ({
+export const CertificateCard = ({
     title,
     description,
     imgUrl,
     sourceUrl,
-    liveUrl,
+    type,
 }) => {
     const [isHovered, setIsHovered] = useState(false);
-    const [isHovered2, setIsHovered2] = useState(false);
 
     const handleMouseEnter = () => {
         setIsHovered(true);
@@ -20,38 +18,21 @@ export const ProjectCard = ({
         setIsHovered(false);
     };
 
-    const handleMouseEnter2 = () => {
-        setIsHovered2(true);
-    };
-
-    const handleMouseLeave2 = () => {
-        setIsHovered2(false);
-    };
     return (
-        <Col size={12} sm={12} md={6}>
+        <Col size={12} sm={12} md={type === "badge" ? 4 : 6}>
             <div className="proj-imgbx">
                 <img src={imgUrl} />
                 <div className="proj-txtx">
                     <h4>{title}</h4>
                     <p className="fw-bold text-warning">{description}</p>
-                    <div className="d-flex justify-content-center">
+                    <div className="justify-content-center">
                         <a href={sourceUrl} target="_blank">
                             {" "}
-                            <FaGithub
-                                color={isHovered ? "#3DC2EC" : "black"}
+                            <MdVerifiedUser
+                                color={isHovered ? "#03C988" : "black"}
                                 size={48}
                                 onMouseEnter={handleMouseEnter}
                                 onMouseLeave={handleMouseLeave}
-                            />
-                        </a>
-
-                        <a href={liveUrl} target="_blank" className="ms-3">
-                            {" "}
-                            <FaGlobe
-                                color={isHovered2 ? "#4B70F5" : "black"}
-                                size={48}
-                                onMouseEnter={handleMouseEnter2}
-                                onMouseLeave={handleMouseLeave2}
                             />
                         </a>
                     </div>

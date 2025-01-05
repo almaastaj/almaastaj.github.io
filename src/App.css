@@ -553,6 +553,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-txtx p {
     text-align: left;
+    width: 70%;
 }
 .background-image-right {
     top: 20%;

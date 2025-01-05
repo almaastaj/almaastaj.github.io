@@ -84,7 +84,7 @@ export const NavBar = () => {
                                     onUpdateActiveLink("certification")
                                 }
                             >
-                                <h3>Certification</h3>
+                                <h3>Achievements</h3>
                             </Nav.Link>
                         </Nav>
                         <span className="navbar-text">
