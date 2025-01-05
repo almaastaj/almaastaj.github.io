@@ -3,7 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import { FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
+import {
+    FaGithub,
+    FaLinkedin,
+    FaGoogle,
+    FaMapMarkerAlt,
+    FaEnvelope,
+    FaUserGraduate,
+} from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -48,7 +55,7 @@ export const Contact = () => {
                                     }
                                 >
                                     <h2>Get In Touch</h2>
-                                    <p>
+                                    <p className="fw-medium">
                                         Welcome to the connect section! <br />{" "}
                                         Whether you have a question, want to
                                         collaborate, or simply want to say
@@ -59,6 +66,39 @@ export const Contact = () => {
                                         promptly. Your feedback and inquiries
                                         are valued and appreciated.
                                     </p>
+                                    <div className="p-3 h3">
+                                        <Row className="p-2">
+                                            <Col
+                                                md={4}
+                                                className="text-warning"
+                                            >
+                                                <FaMapMarkerAlt /> Location
+                                            </Col>
+                                            <Col md={8}>
+                                                Pune, Maharashtra, India
+                                            </Col>
+                                        </Row>
+                                        <Row className="p-2">
+                                            <Col
+                                                md={4}
+                                                className="text-warning"
+                                            >
+                                                <FaEnvelope /> Email
+                                            </Col>
+                                            <Col md={8}>
+                                                almaastaj123@gmail.com
+                                            </Col>
+                                        </Row>
+                                        <Row className="p-2">
+                                            <Col
+                                                md={4}
+                                                className="text-warning"
+                                            >
+                                                <FaUserGraduate /> Education
+                                            </Col>
+                                            <Col md={8}>BITS Pilani</Col>
+                                        </Row>
+                                    </div>
                                     <div className="d-flex justify-content-evenly p-3">
                                         <a
                                             href="https://github.com/almaastaj"

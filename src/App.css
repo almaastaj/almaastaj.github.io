@@ -559,7 +559,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 .contact {
     background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-    padding: 60px 0 200px 0;
+    padding: 60px 0 40px 0;
 }
 .contact img {
     width: 92%;
@@ -712,9 +712,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 26%;
 }
 .footer p {
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 25px;
     color: #b8b8b8;
     letter-spacing: 0.5px;
     margin-top: 20px;
+}
+
+.footer p:hover {
+    color: #16c47f;
 }
