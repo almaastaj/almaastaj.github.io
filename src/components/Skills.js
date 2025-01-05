@@ -3,8 +3,6 @@ import meter2 from "../assets/img/highlight2.5.png";
 import meter3 from "../assets/img/highlight2.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 import { FaBriefcase } from "react-icons/fa";
 
@@ -74,19 +72,31 @@ export const Skills = () => {
                                 className="owl-carousel owl-theme skill-slider"
                             >
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img
+                                        src={meter1}
+                                        alt="Software Projects - 10+"
+                                    />
                                     <h5>Software Projects</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img
+                                        src={meter2}
+                                        alt="Years of Experience - 2.5+"
+                                    />
                                     <h5>Years of Experience</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img
+                                        src={meter1}
+                                        alt="Certificates Completed - 10+"
+                                    />
                                     <h5>Certification Completed</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img
+                                        src={meter3}
+                                        alt="Experience in Finacle Software Development - 2+"
+                                    />
                                     <h5>Finacle Development Experience</h5>
                                 </div>
                             </Carousel>{" "}
@@ -105,10 +115,10 @@ export const Skills = () => {
                                 <br />
                                 <strong>
                                     IDE (Integrated Development Environment):
-                                </strong>
+                                </strong>{" "}
                                 VSCode, Eclipse.
                             </div>
-                            <div className="timeline">
+                            <div className="timeline" id="timeline">
                                 <h2>Professional Timeline</h2>
                                 <div className="timeline-item">
                                     <div className="tl-icon">
@@ -118,6 +128,7 @@ export const Skills = () => {
                                         <a
                                             href="https://www.infosys.com/"
                                             target="_blank"
+                                            rel="noopener noreferrer"
                                         >
                                             Infosys
                                         </a>
@@ -125,6 +136,7 @@ export const Skills = () => {
                                         <a
                                             href="https://www.edgeverve.com/"
                                             target="_blank"
+                                            rel="noopener noreferrer"
                                         >
                                             EdgeVerve
                                         </a>
@@ -175,6 +187,7 @@ export const Skills = () => {
                                                 <a
                                                     href="https://www.edgeverve.com/finacle/"
                                                     target="_blank"
+                                                    rel="noopener noreferrer"
                                                 >
                                                     Finacle:
                                                 </a>
@@ -306,7 +319,7 @@ export const Skills = () => {
             <img
                 className="background-image-left"
                 src={colorSharp}
-                alt="Image"
+                alt="Background"
             />
         </section>
     );

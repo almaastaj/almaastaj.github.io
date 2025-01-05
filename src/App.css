@@ -117,10 +117,10 @@ nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
-    font-weight: 400;
+    font-weight: 200;
     color: #fff !important;
     letter-spacing: 0.8px;
-    padding: 0 25px;
+    padding: 0 20px;
     font-size: 18px;
     opacity: 0.75;
 }
@@ -377,6 +377,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1rem;
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .timeline a {
@@ -414,15 +415,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 2rem;
 }
 
-/* .timeline .timeline-item .tl-duration {
-    padding: 0.2rem 0.6rem;
-    background-color: var(--color-grey-5);
-    border-radius: 15px;
-    display: inline-block;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    font-weight: 500;
-} */
 .timeline .timeline-item h5 {
     padding: 0.5rem 0;
     text-transform: uppercase;
@@ -577,6 +569,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-weight: 700;
     margin-bottom: 30px;
 }
+
+.contact p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #a7d129;
+}
+
 .contact form input,
 .contact form textarea {
     width: 100%;

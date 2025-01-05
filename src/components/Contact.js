@@ -1,95 +1,162 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import "animate.css";
+import TrackVisibility from "react-on-screen";
+import { FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const Contact = () => {
-  const formInitialDetails = {
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    message: ''
-  }
-  const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
-  const [status, setStatus] = useState({});
+    const [hoveredIcon, setHoveredIcon] = useState(null);
 
-  const onFormUpdate = (category, value) => {
-      setFormDetails({
-        ...formDetails,
-        [category]: value
-      })
-  }
+    const handleMouseEnter = (iconName) => {
+        setHoveredIcon(iconName);
+    };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails),
-    });
-    setButtonText("Send");
-    let result = await response.json();
-    setFormDetails(formInitialDetails);
-    if (result.code == 200) {
-      setStatus({ succes: true, message: 'Message sent successfully'});
-    } else {
-      setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
-    }
-  };
+    const handleMouseLeave = () => {
+        setHoveredIcon(null);
+    };
 
-  return (
-    <section className="contact" id="connect">
-      <Container>
-        <Row className="align-items-center">
-          <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
-              }
-            </TrackVisibility>
-          </Col>
-          <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Get In Touch</h2>
-                <form onSubmit={handleSubmit}>
-                  <Row>
-                    <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
+    return (
+        <section className="contact" id="connect">
+            <Container>
+                <Row className="align-items-center">
+                    <Col size={12} md={6}>
+                        <TrackVisibility>
+                            {({ isVisible }) => (
+                                <img
+                                    className={
+                                        isVisible
+                                            ? "animate__animated animate__zoomIn"
+                                            : ""
+                                    }
+                                    src={contactImg}
+                                    alt="Contact Us"
+                                />
+                            )}
+                        </TrackVisibility>
                     </Col>
-                    <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.lasttName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
+                    <Col size={12} md={6}>
+                        <TrackVisibility>
+                            {({ isVisible }) => (
+                                <div
+                                    className={
+                                        isVisible
+                                            ? "animate__animated animate__fadeIn"
+                                            : ""
+                                    }
+                                >
+                                    <h2>Get In Touch</h2>
+                                    <p>
+                                        Welcome to the connect section! <br />{" "}
+                                        Whether you have a question, want to
+                                        collaborate, or simply want to say
+                                        hello, I'd love to hear from you. Feel
+                                        free to reach out and connect with me
+                                        through my social media channels or
+                                        email. I aim to respond to all inquiries
+                                        promptly. Your feedback and inquiries
+                                        are valued and appreciated.
+                                    </p>
+                                    <div className="d-flex justify-content-evenly p-3">
+                                        <a
+                                            href="https://github.com/almaastaj"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <FaGithub
+                                                color={
+                                                    hoveredIcon === "github"
+                                                        ? "white"
+                                                        : "black"
+                                                }
+                                                onMouseEnter={() =>
+                                                    handleMouseEnter("github")
+                                                }
+                                                onMouseLeave={handleMouseLeave}
+                                                size={48}
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://www.linkedin.com/in/almaas-taj/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <FaLinkedin
+                                                color={
+                                                    hoveredIcon === "linkedin"
+                                                        ? "white"
+                                                        : "#46B5D1"
+                                                }
+                                                onMouseEnter={() =>
+                                                    handleMouseEnter("linkedin")
+                                                }
+                                                onMouseLeave={handleMouseLeave}
+                                                size={48}
+                                            />
+                                        </a>
+                                        <a
+                                            href="mailto:almaastaj123@gmail.com"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <FaGoogle
+                                                color={
+                                                    hoveredIcon === "google"
+                                                        ? "white"
+                                                        : "black"
+                                                }
+                                                onMouseEnter={() =>
+                                                    handleMouseEnter("google")
+                                                }
+                                                onMouseLeave={handleMouseLeave}
+                                                size={48}
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://twitter.com/AlmaasAcademy"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <FaXTwitter
+                                                color={
+                                                    hoveredIcon === "twitter"
+                                                        ? "white"
+                                                        : "black"
+                                                }
+                                                onMouseEnter={() =>
+                                                    handleMouseEnter("twitter")
+                                                }
+                                                onMouseLeave={handleMouseLeave}
+                                                size={48}
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://leetcode.com/almaastaj123/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <SiLeetcode
+                                                color={
+                                                    hoveredIcon === "leetcode"
+                                                        ? "white"
+                                                        : "#FF5733"
+                                                }
+                                                onMouseEnter={() =>
+                                                    handleMouseEnter("leetcode")
+                                                }
+                                                onMouseLeave={handleMouseLeave}
+                                                size={48}
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            )}
+                        </TrackVisibility>
                     </Col>
-                    <Col size={12} sm={6} className="px-1">
-                      <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} />
-                    </Col>
-                    <Col size={12} sm={6} className="px-1">
-                      <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
-                    </Col>
-                    <Col size={12} className="px-1">
-                      <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                      <button type="submit"><span>{buttonText}</span></button>
-                    </Col>
-                    {
-                      status.message &&
-                      <Col>
-                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                      </Col>
-                    }
-                  </Row>
-                </form>
-              </div>}
-            </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-  )
-}
+                </Row>
+            </Container>
+        </section>
+    );
+};
