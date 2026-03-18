@@ -58,15 +58,9 @@ export const Banner = () => {
                         <TrackVisibility>
                             {({ isVisible }) => (
                                 <div
-                                    className={
-                                        isVisible
-                                            ? "animate__animated animate__fadeIn"
-                                            : ""
-                                    }
+                                    className={isVisible ? "animate__animated animate__fadeIn" : ""}
                                 >
-                                    <span className="tagline">
-                                        Welcome to my Portfolio
-                                    </span>
+                                    <span className="tagline">Welcome to my Portfolio</span>
                                     <h1>
                                         {`Hi! I'm Almaas Taj,`} <br />
                                         <span
@@ -74,20 +68,16 @@ export const Banner = () => {
                                             dataPeriod="1000"
                                             data-rotate='[ "Software Engineer", "Programmer" ,"Web Developer"  ]'
                                         >
-                                            <span className="wrap logo-top">
-                                                {text}
-                                            </span>
+                                            <span className="wrap logo-top">{text}</span>
                                         </span>
                                     </h1>
                                     <p>
                                         I'm a Software Engineer from
                                         <strong> India</strong> with
-                                        <strong> 2.5+ years</strong> of
-                                        experience in the Software Industry. I
-                                        love to create beautiful and functional
-                                        websites. I am passionate about building
-                                        the tools that redefine the boundaries
-                                        of what's possible.
+                                        <strong> 3.5+ years</strong> of experience in the Software
+                                        Industry. I love to create beautiful and functional
+                                        websites. I am passionate about building the tools that
+                                        redefine the boundaries of what's possible.
                                     </p>
                                 </div>
                             )}
@@ -97,11 +87,7 @@ export const Banner = () => {
                         <TrackVisibility>
                             {({ isVisible }) => (
                                 <div
-                                    className={
-                                        isVisible
-                                            ? "animate__animated animate__zoomIn"
-                                            : ""
-                                    }
+                                    className={isVisible ? "animate__animated animate__zoomIn" : ""}
                                 >
                                     <img src={headerImg} alt="Header Img" />
                                 </div>

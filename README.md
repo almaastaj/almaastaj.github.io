@@ -1,6 +1,8 @@
 # Portfolio - Website
 
-This Project is [Portfolio - Website](https://almaastaj.github.io/) curated collection of my creative work, showcasing my skills and experience in Software Engineering.
+This Project is a [Portfolio - Website](https://almaastaj.github.io/) which contains curated collection of my creative work, showcasing my skills and experience in Software Engineering.
+
+The website is designed to provide an overview of my professional journey, highlight key projects, and demonstrate my expertise in the field. It serves as a platform to share my accomplishments, skills, and experiences with potential employers, clients, and collaborators.
 
 ## Home Page
 

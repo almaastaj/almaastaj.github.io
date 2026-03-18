@@ -96,41 +96,27 @@ export const Projects = () => {
                         <TrackVisibility>
                             {({ isVisible }) => (
                                 <div
-                                    className={
-                                        isVisible
-                                            ? "animate__animated animate__fadeIn"
-                                            : ""
-                                    }
+                                    className={isVisible ? "animate__animated animate__fadeIn" : ""}
                                 >
                                     <h2>Projects</h2>
                                     <p className="fs-3 fw-bold text-info">
-                                        Here are some of my Personal Project
-                                        that I've done using various programming
-                                        languages.
+                                        Here are some of my Personal Project that I've done using
+                                        various programming languages.
                                     </p>
-                                    <Tab.Container
-                                        id="projects-tabs"
-                                        defaultActiveKey="first"
-                                    >
+                                    <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                         <Nav
                                             variant="pills"
                                             className="nav-pills mb-5 justify-content-center align-items-center"
                                             id="pills-tab"
                                         >
                                             <Nav.Item>
-                                                <Nav.Link eventKey="first">
-                                                    Tab 1
-                                                </Nav.Link>
+                                                <Nav.Link eventKey="first">Tab 1</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="second">
-                                                    Tab 2
-                                                </Nav.Link>
+                                                <Nav.Link eventKey="second">Tab 2</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="third">
-                                                    Tab 3
-                                                </Nav.Link>
+                                                <Nav.Link eventKey="third">Tab 3</Nav.Link>
                                             </Nav.Item>
                                         </Nav>
                                         <Tab.Content
@@ -143,30 +129,20 @@ export const Projects = () => {
                                         >
                                             <Tab.Pane eventKey="first">
                                                 <Row>
-                                                    {projects.map(
-                                                        (project, index) => {
-                                                            return (
-                                                                <ProjectCard
-                                                                    key={index}
-                                                                    {...project}
-                                                                />
-                                                            );
-                                                        },
-                                                    )}
+                                                    {projects.map((project, index) => {
+                                                        return (
+                                                            <ProjectCard key={index} {...project} />
+                                                        );
+                                                    })}
                                                 </Row>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
                                                 <Row>
-                                                    {projects2.map(
-                                                        (project, index) => {
-                                                            return (
-                                                                <ProjectCard
-                                                                    key={index}
-                                                                    {...project}
-                                                                />
-                                                            );
-                                                        },
-                                                    )}
+                                                    {projects2.map((project, index) => {
+                                                        return (
+                                                            <ProjectCard key={index} {...project} />
+                                                        );
+                                                    })}
                                                 </Row>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
@@ -182,7 +158,11 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2}></img>
+            <img
+                className="background-image-right"
+                src={colorSharp2}
+                alt="Background decoration"
+            ></img>
         </section>
     );
 };

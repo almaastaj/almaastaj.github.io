@@ -1,6 +1,6 @@
 import meter1 from "../assets/img/highlight10.png";
-import meter2 from "../assets/img/highlight2.5.png";
-import meter3 from "../assets/img/highlight2.png";
+import meter2 from "../assets/img/highlight3.5.png";
+import meter3 from "../assets/img/highlight3.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
@@ -35,34 +35,24 @@ export const Skills = () => {
                             <h2>General Information</h2>
                             <p>
                                 I am <strong> Almaas Taj,</strong> a
-                                <strong> Software Engineer </strong> based in
-                                India, with over <strong> 2.5+ years</strong> of
-                                professional experience in the field. I
-                                graduated from{" "}
-                                <strong> BITS Pilani in 2020. </strong> I am
-                                Passionate about crafting both visually
-                                appealing and highly functional websites.
+                                <strong> Software Engineer </strong> based in India, with over{" "}
+                                <strong> 3.5+ years</strong> of professional experience in the
+                                field. I graduated from <strong> BITS Pilani in 2020. </strong> I am
+                                Passionate about crafting both visually appealing and highly
+                                functional websites.
                                 <br />
-                                My journey into software engineering began with
-                                fascination for coding during my college days,
-                                where I delved into various programming
-                                languages and discovered my knack for
-                                <strong> problem-solving. </strong> Since then,
-                                I've been fortunate to work on a diverse range
-                                of projects, honing my skills in
+                                My journey into software engineering began with fascination for
+                                coding during my college days, where I delved into various
+                                programming languages and discovered my knack for
+                                <strong> problem-solving. </strong> Since then, I've been fortunate
+                                to work on a diverse range of projects, honing my skills in
                                 <strong>
                                     {" "}
-                                    web development, backend systems and
-                                    software architecture.{" "}
+                                    web development, backend systems and software architecture.{" "}
                                 </strong>
-                                My approach to software engineering is rooted in
-                                a commitment to{" "}
-                                <strong>
-                                    {" "}
-                                    delivering robust and scalable solutions{" "}
-                                </strong>{" "}
-                                that not only meet the needs of users but also
-                                exceed expectations.
+                                My approach to software engineering is rooted in a commitment to{" "}
+                                <strong> delivering robust and scalable solutions </strong> that not
+                                only meet the needs of users but also exceed expectations.
                             </p>
                             <h2>Highlights</h2>
                             <Carousel
@@ -71,30 +61,21 @@ export const Skills = () => {
                                 className="owl-carousel owl-theme skill-slider"
                             >
                                 <div className="item">
-                                    <img
-                                        src={meter1}
-                                        alt="Software Projects - 10+"
-                                    />
+                                    <img src={meter1} alt="Software Projects - 10+" />
                                     <h5>Software Projects</h5>
                                 </div>
                                 <div className="item">
-                                    <img
-                                        src={meter2}
-                                        alt="Years of Experience - 2.5+"
-                                    />
+                                    <img src={meter2} alt="Years of Experience - 3.5+" />
                                     <h5>Years of Experience</h5>
                                 </div>
                                 <div className="item">
-                                    <img
-                                        src={meter1}
-                                        alt="Certificates Completed - 10+"
-                                    />
+                                    <img src={meter1} alt="Certificates Completed - 10+" />
                                     <h5>Certification Completed</h5>
                                 </div>
                                 <div className="item">
                                     <img
                                         src={meter3}
-                                        alt="Experience in Finacle Software Development - 2+"
+                                        alt="Experience in Finacle Software Development - 3+"
                                     />
                                     <h5>Finacle Development Experience</h5>
                                 </div>
@@ -104,18 +85,19 @@ export const Skills = () => {
                             <div className="skill-list">
                                 <strong>Programming Language: </strong>
                                 Java, Python, JavaScript. <br />
-                                <strong>Developer Tools: </strong>
-                                React Dev tools, Browser Dev tools, Command
-                                Terminal, Git. <br />
-                                <strong>Web Development: </strong>
-                                React, NodeJS, HTML, CSS. <br />
-                                <strong>Database: </strong>
-                                SQL, MongoDB, MySQL.
+                                <strong>Tools & DevOps: </strong>
+                                React Dev tools, Git/GitHub (CI/CD), Command Line/Shell Scripting,
+                                Chrome DevTools. <br />
+                                <strong>Frontend Development: </strong>
+                                React.js, HTML5, CSS3, Responsive Design. <br />
+                                <strong>Backend & Automation: </strong>
+                                Node.js, RESTful APIs, Python Automation (SharePoint/OneDrive
+                                integration, Outlook data parsing). <br />
+                                <strong>Databases & Storage: </strong>
+                                Oracle Database, MongoDB, MySQL, PostgreSQL.
                                 <br />
-                                <strong>
-                                    IDE (Integrated Development Environment):
-                                </strong>{" "}
-                                VSCode, Eclipse.
+                                <strong>Core CS Concepts:</strong> Data Structure and Algorithms,
+                                Dynamic Programming, Data Engineering (Delta Loads, ETL).
                             </div>
                             <div className="timeline" id="timeline">
                                 <h2>Professional Timeline</h2>
@@ -140,43 +122,29 @@ export const Skills = () => {
                                             EdgeVerve
                                         </a>
                                         <span> - Senior System Engineer</span>{" "}
-                                        <span className="invisible">
-                                            ---------------------{" "}
-                                        </span>
-                                        <span>2022 - 2025</span>
+                                        <span className="invisible">--------------------- </span>
+                                        <span>2022 - 2026</span>
                                     </h5>
                                     <h5>General Company Info:</h5>
                                     <ol>
                                         <li>
-                                            <strong>Infosys Limited </strong> is
-                                            a multinational corporation that
-                                            provides information technology,
-                                            consulting, and outsourcing
-                                            services.
+                                            <strong>Infosys Limited </strong> is a multinational
+                                            corporation that provides information technology,
+                                            consulting, and outsourcing services.
                                         </li>
                                         <li>
-                                            <strong>
-                                                EdgeVerve Systems Limited{" "}
-                                            </strong>
-                                            is a wholly-owned subsidiary of
-                                            Infosys Limited, specializing in
-                                            providing software products and
+                                            <strong>EdgeVerve Systems Limited </strong>
+                                            is a wholly-owned subsidiary of Infosys Limited,
+                                            specializing in providing software products and
                                             solutions for various industries.
                                         </li>
                                         <li>
-                                            EdgeVerve focuses on developing and
-                                            offering innovative
-                                            <strong>
-                                                {" "}
-                                                software products and platforms{" "}
-                                            </strong>
+                                            EdgeVerve focuses on developing and offering innovative
+                                            <strong> software products and platforms </strong>
                                             across different domains such as
-                                            <strong>
-                                                {" "}
-                                                banking, financial services,{" "}
-                                            </strong>
-                                            insurance, supply chain management,
-                                            and digital commerce.
+                                            <strong> banking, financial services, </strong>
+                                            insurance, supply chain management, and digital
+                                            commerce.
                                         </li>
                                     </ol>
                                     <h5>Product Info:</h5>
@@ -191,27 +159,22 @@ export const Skills = () => {
                                                     Finacle:
                                                 </a>
                                             </strong>{" "}
-                                            A comprehensive banking solution
-                                            suite catering to various
+                                            A comprehensive banking solution suite catering to
+                                            various
                                             <strong>
                                                 {" "}
-                                                banking needs including core
-                                                banking, digital banking,
-                                                payments, analytics,{" "}
+                                                banking needs including core banking, digital
+                                                banking, payments, analytics,{" "}
                                             </strong>
                                             and more. It serves over
-                                            <strong> 1 Billion</strong>{" "}
-                                            customers globally.
+                                            <strong> 1 Billion</strong> customers globally.
                                         </li>
                                         <li>
                                             Worked in
                                             <strong>
                                                 {" "}
-                                                Finacle Channels Development
-                                                Team
-                                            </strong>{" "}
-                                            of <strong> Finacle </strong>{" "}
-                                            Product for
+                                                Finacle Channels Development Team
+                                            </strong> of <strong> Finacle </strong> Product for
                                             <strong> 2+ years. </strong>
                                         </li>
                                     </ol>
@@ -220,93 +183,63 @@ export const Skills = () => {
                                         <li>
                                             Worked on{" "}
                                             <strong>
-                                                Finacle 11.16 Digital Engagement
-                                                Hub (DEH) Alert API development.
+                                                Finacle 11.16 Digital Engagement Hub (DEH) Alert API
+                                                development.
                                             </strong>{" "}
-                                            I primarily focused on Alert
-                                            Registration and Alert Recipient
-                                            Segment Fetch API development.
+                                            I primarily focused on Alert Registration and Alert
+                                            Recipient Segment Fetch API development.
                                         </li>
                                         <li>
-                                            Worked on Integrating Finacle 11.16
-                                            DEH with{" "}
-                                            <strong>
-                                                Alert Enterprise 11.16
-                                            </strong>{" "}
-                                            which provided features such as
+                                            Worked on Integrating Finacle 11.16 DEH with{" "}
+                                            <strong>Alert Enterprise 11.16</strong> which provided
+                                            features such as
                                             <strong>
                                                 {" "}
-                                                Alert Subscription, Alert
-                                                Channel Personalisation and
-                                                Alert Unsubscription.
+                                                Alert Subscription, Alert Channel Personalisation
+                                                and Alert Unsubscription.
                                             </strong>
                                         </li>
                                         <li>
-                                            Worked on Integrating{" "}
-                                            <strong>Finacle 11.17 DEH</strong>{" "}
-                                            with{" "}
-                                            <strong>
-                                                Alert Enterprise 11.17
-                                            </strong>{" "}
-                                            using <strong>Apache Camel.</strong>
+                                            Worked on Integrating <strong>Finacle 11.17 DEH</strong>{" "}
+                                            with <strong>Alert Enterprise 11.17</strong> using{" "}
+                                            <strong>Apache Camel.</strong>
                                         </li>
                                         <li>
-                                            Worked on adding new features to
-                                            Finacle 11.17 DEH, which focused on
-                                            expanding the Alert APIs to include
+                                            Worked on adding new features to Finacle 11.17 DEH,
+                                            which focused on expanding the Alert APIs to include
                                             features such as{" "}
                                             <strong>
-                                                Alert Personalisation and
-                                                Channel Personalisation
+                                                Alert Personalisation and Channel Personalisation
                                             </strong>{" "}
-                                            based on Account Id, Ability to
-                                            change the trigger condition for
-                                            which alerts are raised.
+                                            based on Account Id, Ability to change the trigger
+                                            condition for which alerts are raised.
                                         </li>
                                         <li>
-                                            Created a{" "}
-                                            <strong>video course</strong>{" "}
-                                            explaining the functionality and
-                                            workings of Alert APIs on{" "}
-                                            <strong>
-                                                Lex (Infosys education Platform)
-                                            </strong>{" "}
-                                            which garnered around{" "}
-                                            <strong>500+</strong> unique views
-                                            from colleagues on Lex.
+                                            Created a <strong>video course</strong> explaining the
+                                            functionality and workings of Alert APIs on{" "}
+                                            <strong>Lex (Infosys education Platform)</strong> which
+                                            garnered around <strong>500+</strong> unique views from
+                                            colleagues on Lex.
                                         </li>
                                         <li>
                                             Worked on{" "}
-                                            <strong>
-                                                localization of APIs for india
-                                            </strong>{" "}
-                                            such as Loan APIs, Pension Schemes
-                                            APIs, Term Deposit APIs, Account
-                                            Listing APIs, etc.
+                                            <strong>localization of APIs for india</strong> such as
+                                            Loan APIs, Pension Schemes APIs, Term Deposit APIs,
+                                            Account Listing APIs, etc.
                                         </li>
                                         <li>
-                                            Worked on creating Treasury APIs
-                                            using{" "}
-                                            <strong>
-                                                Experience Service Framework
-                                                (XSF)
-                                            </strong>{" "}
-                                            which is a new Framework
-                                            architecture to create Rest APIs for
-                                            Finacle.
+                                            Worked on creating Treasury APIs using{" "}
+                                            <strong>Experience Service Framework (XSF)</strong>{" "}
+                                            which is a new Framework architecture to create Rest
+                                            APIs for Finacle.
                                         </li>
                                         <li>
-                                            Worked on <strong>HIF Tool</strong>{" "}
-                                            which uses <strong>Javapoet</strong>{" "}
-                                            to convert the input XML transformer
-                                            files to equivalent Java files with
-                                            Input and Output DTOs. Then these
-                                            generated files are used in XSF API
-                                            to connect to{" "}
-                                            <strong>
-                                                Finacle Core Services
-                                            </strong>
-                                            .
+                                            Worked on <strong>HIF Tool</strong> which uses{" "}
+                                            <strong>Javapoet</strong> to convert the input XML
+                                            transformer files to equivalent Java files with Input
+                                            and Output DTOs. Then these generated files are used in
+                                            XSF API to connect to{" "}
+                                            <strong>Finacle Core Services</strong>.
                                         </li>
                                     </ol>
                                 </div>
@@ -315,11 +248,7 @@ export const Skills = () => {
                     </div>
                 </div>
             </div>
-            <img
-                className="background-image-left"
-                src={colorSharp}
-                alt="Background"
-            />
+            <img className="background-image-left" src={colorSharp} alt="Background" />
         </section>
     );
 };

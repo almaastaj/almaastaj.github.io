@@ -1,13 +1,7 @@
 import { Col } from "react-bootstrap";
 import { MdVerifiedUser } from "react-icons/md";
 import { useState } from "react";
-export const CertificateCard = ({
-    title,
-    description,
-    imgUrl,
-    sourceUrl,
-    type,
-}) => {
+export const CertificateCard = ({ title, description, imgUrl, sourceUrl, type }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleMouseEnter = () => {
@@ -21,12 +15,12 @@ export const CertificateCard = ({
     return (
         <Col size={12} sm={12} md={type === "badge" ? 4 : 6}>
             <div className="proj-imgbx">
-                <img src={imgUrl} />
+                <img src={imgUrl} alt="This is a certificate" />
                 <div className="proj-txtx">
                     <h4>{title}</h4>
                     <p className="fw-bold text-warning">{description}</p>
                     <div className="justify-content-center">
-                        <a href={sourceUrl} target="_blank">
+                        <a href={sourceUrl} target="_blank" rel="noopener noreferrer">
                             {" "}
                             <MdVerifiedUser
                                 color={isHovered ? "#03C988" : "black"}
