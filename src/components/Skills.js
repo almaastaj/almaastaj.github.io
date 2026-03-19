@@ -175,71 +175,79 @@ export const Skills = () => {
                                                 {" "}
                                                 Finacle Channels Development Team
                                             </strong> of <strong> Finacle </strong> Product for
-                                            <strong> 2+ years. </strong>
+                                            <strong> 3+ years. </strong>
                                         </li>
                                     </ol>
                                     <h5>Personal Work Info:</h5>
                                     <ol>
                                         <li>
-                                            Worked on{" "}
-                                            <strong>
-                                                Finacle 11.16 Digital Engagement Hub (DEH) Alert API
-                                                development.
-                                            </strong>{" "}
-                                            I primarily focused on Alert Registration and Alert
-                                            Recipient Segment Fetch API development.
+                                            Developed a <strong>Software Management Portal</strong>{" "}
+                                            to track and manage software vulnerabilities and
+                                            End-of-life (EOL) across various servers and software
+                                            components, resulting in a 25% reduction in security
+                                            risks and improved compliance with industry standards.
                                         </li>
                                         <li>
-                                            Worked on Integrating Finacle 11.16 DEH with{" "}
-                                            <strong>Alert Enterprise 11.16</strong> which provided
-                                            features such as
-                                            <strong>
-                                                {" "}
-                                                Alert Subscription, Alert Channel Personalisation
-                                                and Alert Unsubscription.
-                                            </strong>
+                                            Engineered the <strong>HIF Tool</strong> using JavaPoet
+                                            to automate the conversion of XML transformer files into
+                                            Java DTOs. This eliminated manual boilerplate for the
+                                            entire Finacle Channels Development team, reducing XSF
+                                            API development time by 30%.
                                         </li>
                                         <li>
-                                            Worked on Integrating <strong>Finacle 11.17 DEH</strong>{" "}
-                                            with <strong>Alert Enterprise 11.17</strong> using{" "}
-                                            <strong>Apache Camel.</strong>
+                                            Architected Treasury APIs using the{" "}
+                                            <strong>Experience Service Framework (XSF)</strong>,
+                                            transitioning to a modern REST architecture that cut
+                                            development cycles by 20%.
                                         </li>
                                         <li>
-                                            Worked on adding new features to Finacle 11.17 DEH,
-                                            which focused on expanding the Alert APIs to include
-                                            features such as{" "}
-                                            <strong>
-                                                Alert Personalisation and Channel Personalisation
-                                            </strong>{" "}
-                                            based on Account Id, Ability to change the trigger
-                                            condition for which alerts are raised.
+                                            Developed a custom data modeling engine for the
+                                            <strong>Information Reporting (IR) service</strong>,
+                                            enabling admin users to generate custom reports and
+                                            significantly increasing data flexibility for 20+
+                                            enterprise clients.
                                         </li>
                                         <li>
-                                            Created a <strong>video course</strong> explaining the
-                                            functionality and workings of Alert APIs on{" "}
-                                            <strong>Lex (Infosys education Platform)</strong> which
-                                            garnered around <strong>500+</strong> unique views from
-                                            colleagues on Lex.
+                                            Authored and published{" "}
+                                            <strong>5+ technical video courses</strong> on the
+                                            Infosys LeX platform, educating 500+ developers on the
+                                            internal architecture of Alert APIs and Information
+                                            Reporting microservices.
                                         </li>
                                         <li>
-                                            Worked on{" "}
-                                            <strong>localization of APIs for india</strong> such as
-                                            Loan APIs, Pension Schemes APIs, Term Deposit APIs,
-                                            Account Listing APIs, etc.
+                                            Spearheaded the Finacle 11.19 integration with Alert
+                                            Enterprise, designing high-performance APIs for alert
+                                            subscription and alert delivery that improved system
+                                            throughput by 40%.
                                         </li>
                                         <li>
-                                            Worked on creating Treasury APIs using{" "}
-                                            <strong>Experience Service Framework (XSF)</strong>{" "}
-                                            which is a new Framework architecture to create Rest
-                                            APIs for Finacle.
+                                            Optimized critical IR Microservices for performance and
+                                            security, achieving a 20% increase in API efficiency and
+                                            hardening the system against vulnerabilities.
                                         </li>
                                         <li>
-                                            Worked on <strong>HIF Tool</strong> which uses{" "}
-                                            <strong>Javapoet</strong> to convert the input XML
-                                            transformer files to equivalent Java files with Input
-                                            and Output DTOs. Then these generated files are used in
-                                            XSF API to connect to{" "}
-                                            <strong>Finacle Core Services</strong>.
+                                            Engineered location-aware time zone logic within IR
+                                            Microservices to ensure global report accuracy,
+                                            resulting in a documented 15% increase in client
+                                            satisfaction scores.
+                                        </li>
+                                        <li>
+                                            Led multi-version API evolutions for Finacle Digital
+                                            Engagement Hub (DEH v11.16-11.18), integrating it with
+                                            Alert Enterprise Microservice which has complex features
+                                            including Apache Camel integrations, account-based
+                                            personalization, and dynamic trigger conditions.
+                                        </li>
+                                        <li>
+                                            Developed localized banking APIs for the Indian market,
+                                            including specialized modules for Loans, Pension
+                                            Schemes, Term Deposits, and Account Listing services.
+                                        </li>
+                                        <li>
+                                            Standardized Alert Registration and Recipient Segment
+                                            Fetching processes, ensuring seamless synchronization
+                                            between core banking services and external engagement
+                                            platforms.
                                         </li>
                                     </ol>
                                 </div>
