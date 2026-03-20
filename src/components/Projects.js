@@ -8,6 +8,7 @@ import projImg5 from "../assets/img/Expense-Tracker.png";
 import projImg6 from "../assets/img/Note-wizard.png";
 import projImg7 from "../assets/img/sensex-analysis.png";
 import projImg8 from "../assets/img/stock-analysis.png";
+import projImg9 from "../assets/img/fintrack-landingpage.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -32,12 +33,12 @@ export const Projects = () => {
             liveUrl: "https://supportdeskticketapp.onrender.com",
         },
         {
-            title: "Doodle-le-Doo App",
+            title: "FinTrack App",
             description:
-                "This is Doodle Website that allows you to draw a doodle with any color of our choice, change the size of brush, clear the screen, etc.",
-            imgUrl: projImg3,
-            sourceUrl: "https://github.com/almaastaj/Doodle-le-Doo",
-            liveUrl: "https://almaastaj.github.io/Doodle-le-Doo/",
+                "This FinTrack App is a personal finance management tool that helps users track their income and expenses. It also provides a visual representation of their financial data through charts and graphs.",
+            imgUrl: projImg9,
+            sourceUrl: "https://github.com/almaastaj/fintrack",
+            liveUrl: "https://fintrack-eight.vercel.app/",
         },
         {
             title: "Crowd Wisdom Website",
@@ -85,6 +86,17 @@ export const Projects = () => {
                 "https://github.com/almaastaj/IndianStockMarket/blob/master/IndianITIndex.ipynb",
             liveUrl:
                 "https://github.com/almaastaj/IndianStockMarket/blob/master/IndianITIndex.ipynb",
+        },
+    ];
+
+    const projects3 = [
+        {
+            title: "Doodle-le-Doo App",
+            description:
+                "This is Doodle Website that allows you to draw a doodle with any color of our choice, change the size of brush, clear the screen, etc.",
+            imgUrl: projImg3,
+            sourceUrl: "https://github.com/almaastaj/Doodle-le-Doo",
+            liveUrl: "https://almaastaj.github.io/Doodle-le-Doo/",
         },
     ];
 
@@ -146,6 +158,13 @@ export const Projects = () => {
                                                 </Row>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
+                                                <Row>
+                                                    {projects3.map((project, index) => {
+                                                        return (
+                                                            <ProjectCard key={index} {...project} />
+                                                        );
+                                                    })}
+                                                </Row>
                                                 <p className="fs-1 text-warning fw-bold">
                                                     Coming soon .....
                                                 </p>

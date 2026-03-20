@@ -215,39 +215,47 @@ export const Skills = () => {
                                             Reporting microservices.
                                         </li>
                                         <li>
-                                            Spearheaded the Finacle 11.19 integration with Alert
-                                            Enterprise, designing high-performance APIs for alert
-                                            subscription and alert delivery that improved system
-                                            throughput by 40%.
+                                            Spearheaded the <strong>Finacle DEH 11.19</strong>{" "}
+                                            integration with Alert Enterprise, designing
+                                            high-performance APIs for alert subscription and alert
+                                            delivery that improved system throughput by 40%.
                                         </li>
                                         <li>
-                                            Optimized critical IR Microservices for performance and
-                                            security, achieving a 20% increase in API efficiency and
-                                            hardening the system against vulnerabilities.
+                                            Optimized <strong>critical IR Microservices</strong> for
+                                            performance and security, achieving a 20% increase in
+                                            API efficiency and hardening the system against
+                                            vulnerabilities.
                                         </li>
                                         <li>
-                                            Engineered location-aware time zone logic within IR
-                                            Microservices to ensure global report accuracy,
+                                            Engineered{" "}
+                                            <strong>location-aware time zone logic</strong> within
+                                            IR Microservices to ensure global report accuracy,
                                             resulting in a documented 15% increase in client
                                             satisfaction scores.
                                         </li>
                                         <li>
-                                            Led multi-version API evolutions for Finacle Digital
-                                            Engagement Hub (DEH v11.16-11.18), integrating it with
-                                            Alert Enterprise Microservice which has complex features
-                                            including Apache Camel integrations, account-based
-                                            personalization, and dynamic trigger conditions.
+                                            Led multi-version API evolutions for{" "}
+                                            <strong>
+                                                Finacle Digital Engagement Hub (DEH v11.16-11.18)
+                                            </strong>
+                                            , integrating it with Alert Enterprise Microservice
+                                            which has complex features including Apache Camel
+                                            integrations, account-based personalization, and dynamic
+                                            trigger conditions.
                                         </li>
                                         <li>
-                                            Developed localized banking APIs for the Indian market,
-                                            including specialized modules for Loans, Pension
-                                            Schemes, Term Deposits, and Account Listing services.
+                                            Developed <strong>localized banking APIs</strong> for
+                                            the Indian market, including specialized modules for
+                                            Loans, Pension Schemes, Term Deposits, and Account
+                                            Listing services.
                                         </li>
                                         <li>
-                                            Standardized Alert Registration and Recipient Segment
-                                            Fetching processes, ensuring seamless synchronization
-                                            between core banking services and external engagement
-                                            platforms.
+                                            <strong>
+                                                Standardized Alert Registration and Recipient
+                                                Segment Fetching processes
+                                            </strong>
+                                            , ensuring seamless synchronization between core banking
+                                            services and external engagement platforms.
                                         </li>
                                     </ol>
                                 </div>
