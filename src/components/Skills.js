@@ -201,7 +201,7 @@ export const Skills = () => {
                                             development cycles by 20%.
                                         </li>
                                         <li>
-                                            Developed a custom data modeling engine for the
+                                            Developed a custom data modeling engine for the{" "}
                                             <strong>Information Reporting (IR) service</strong>,
                                             enabling admin users to generate custom reports and
                                             significantly increasing data flexibility for 20+
@@ -216,14 +216,15 @@ export const Skills = () => {
                                         </li>
                                         <li>
                                             Spearheaded the <strong>Finacle DEH 11.19</strong>{" "}
-                                            integration with Alert Enterprise, designing
-                                            high-performance APIs for alert subscription and alert
-                                            delivery that improved system throughput by 40%.
+                                            integration with <strong>Alert Enterprise</strong>,
+                                            designing high-performance APIs for alert subscription
+                                            and alert delivery that improved system throughput by
+                                            40%.
                                         </li>
                                         <li>
-                                            Optimized <strong>critical IR Microservices</strong> for
-                                            performance and security, achieving a 20% increase in
-                                            API efficiency and hardening the system against
+                                            Optimized <strong>critical IR Microservice APIs</strong>{" "}
+                                            for performance and security, achieving a 20% increase
+                                            in API efficiency and hardening the system against
                                             vulnerabilities.
                                         </li>
                                         <li>
@@ -238,10 +239,14 @@ export const Skills = () => {
                                             <strong>
                                                 Finacle Digital Engagement Hub (DEH v11.16-11.18)
                                             </strong>
-                                            , integrating it with Alert Enterprise Microservice
-                                            which has complex features including Apache Camel
-                                            integrations, account-based personalization, and dynamic
-                                            trigger conditions.
+                                            , integrating it with{" "}
+                                            <strong>
+                                                Alert Enterprise Microservice using Apache Camel
+                                            </strong>
+                                            . Also provided <strong>advanced features</strong> such
+                                            as alert delivery, account-based personalization, alert
+                                            scheduling, alert subscription management, channel
+                                            personalization, and dynamic alert trigger conditions.
                                         </li>
                                         <li>
                                             Developed <strong>localized banking APIs</strong> for
