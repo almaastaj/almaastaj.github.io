@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.5650d220.css",
-    "main.js": "/static/js/main.5af04167.js",
+    "main.css": "/static/css/main.2a3c6f9f.css",
+    "main.js": "/static/js/main.a856dcd7.js",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/coursera-ItPython.png": "/static/media/coursera-ItPython.fde66463bebb87049e5b.png",
     "static/media/coursera-dataAnalytics.png": "/static/media/coursera-dataAnalytics.be937daa48de2d14bf8f.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/gadgetCraze.png": "/static/media/gadgetCraze.d2e265137e5db7ac960b.png",
+    "static/media/fintrack-landingpage.png": "/static/media/fintrack-landingpage.ae8fad908381ff6b1d69.png",
     "static/media/Note-wizard.png": "/static/media/Note-wizard.c446cb96904873cd300c.png",
     "static/media/crowd-wisdom.png": "/static/media/crowd-wisdom.4d07d8fef3c0580ce57a.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
@@ -27,9 +28,9 @@
     "static/media/support-desk.png": "/static/media/support-desk.7ff49aac6ce73fce6c57.png",
     "static/media/sensex-analysis.png": "/static/media/sensex-analysis.01fc1376f699758794ea.png",
     "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
-    "static/media/highlight2.5.png": "/static/media/highlight2.5.a9e74c510f3acb5da983.png",
+    "static/media/highlight3.5.png": "/static/media/highlight3.5.75daabe31a3c31f900a7.png",
+    "static/media/highlight3.png": "/static/media/highlight3.a13561f48e41b30282ab.png",
     "static/media/highlight10.png": "/static/media/highlight10.cc284ec2e52861e176e4.png",
-    "static/media/highlight2.png": "/static/media/highlight2.3d0552e9e1c8f18622cf.png",
     "static/media/doodle-le-doo.png": "/static/media/doodle-le-doo.f6eabb829a3d6809e96c.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -38,11 +39,11 @@
     "static/media/icons8-github4.svg": "/static/media/icons8-github4.5d5e85dc79b770ebe13e43498b706bb2.svg",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
-    "main.5650d220.css.map": "/static/css/main.5650d220.css.map",
-    "main.5af04167.js.map": "/static/js/main.5af04167.js.map"
+    "main.2a3c6f9f.css.map": "/static/css/main.2a3c6f9f.css.map",
+    "main.a856dcd7.js.map": "/static/js/main.a856dcd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5650d220.css",
-    "static/js/main.5af04167.js"
+    "static/css/main.2a3c6f9f.css",
+    "static/js/main.a856dcd7.js"
   ]
 }
