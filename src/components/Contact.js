@@ -33,11 +33,7 @@ export const Contact = () => {
                         <TrackVisibility>
                             {({ isVisible }) => (
                                 <img
-                                    className={
-                                        isVisible
-                                            ? "animate__animated animate__zoomIn"
-                                            : ""
-                                    }
+                                    className={isVisible ? "animate__animated animate__zoomIn" : ""}
                                     src={contactImg}
                                     alt="Contact Us"
                                 />
@@ -48,52 +44,32 @@ export const Contact = () => {
                         <TrackVisibility>
                             {({ isVisible }) => (
                                 <div
-                                    className={
-                                        isVisible
-                                            ? "animate__animated animate__fadeIn"
-                                            : ""
-                                    }
+                                    className={isVisible ? "animate__animated animate__fadeIn" : ""}
                                 >
                                     <h2>Get In Touch</h2>
                                     <p className="fw-medium">
-                                        Welcome to the connect section! <br />{" "}
-                                        Whether you have a question, want to
-                                        collaborate, or simply want to say
-                                        hello, I'd love to hear from you. Feel
-                                        free to reach out and connect with me
-                                        through my social media channels or
-                                        email. I aim to respond to all inquiries
-                                        promptly. Your feedback and inquiries
-                                        are valued and appreciated.
+                                        Welcome to the connect section! <br /> If you have a
+                                        question, want to collaborate, or simply want to say hello,
+                                        I'd love to hear from you. Feel free to reach out and
+                                        connect with me through my social media channels or email. I
+                                        aim to respond to all inquiries promptly. Your feedback and
+                                        inquiries are valued and appreciated.
                                     </p>
                                     <div className="p-3 h3">
                                         <Row className="p-2">
-                                            <Col
-                                                md={4}
-                                                className="text-warning"
-                                            >
+                                            <Col md={4} className="text-warning">
                                                 <FaMapMarkerAlt /> Location
                                             </Col>
-                                            <Col md={8}>
-                                                Pune, Maharashtra, India
-                                            </Col>
+                                            <Col md={8}>Pune, Maharashtra, India</Col>
                                         </Row>
                                         <Row className="p-2">
-                                            <Col
-                                                md={4}
-                                                className="text-warning"
-                                            >
+                                            <Col md={4} className="text-warning">
                                                 <FaEnvelope /> Email
                                             </Col>
-                                            <Col md={8}>
-                                                almaastaj123@gmail.com
-                                            </Col>
+                                            <Col md={8}>almaastaj123@gmail.com</Col>
                                         </Row>
                                         <Row className="p-2">
-                                            <Col
-                                                md={4}
-                                                className="text-warning"
-                                            >
+                                            <Col md={4} className="text-warning">
                                                 <FaUserGraduate /> Education
                                             </Col>
                                             <Col md={8}>BITS Pilani</Col>
@@ -106,14 +82,8 @@ export const Contact = () => {
                                             rel="noopener noreferrer"
                                         >
                                             <FaGithub
-                                                color={
-                                                    hoveredIcon === "github"
-                                                        ? "white"
-                                                        : "black"
-                                                }
-                                                onMouseEnter={() =>
-                                                    handleMouseEnter("github")
-                                                }
+                                                color={hoveredIcon === "github" ? "white" : "black"}
+                                                onMouseEnter={() => handleMouseEnter("github")}
                                                 onMouseLeave={handleMouseLeave}
                                                 size={48}
                                             />
@@ -125,13 +95,9 @@ export const Contact = () => {
                                         >
                                             <FaLinkedin
                                                 color={
-                                                    hoveredIcon === "linkedin"
-                                                        ? "white"
-                                                        : "#46B5D1"
+                                                    hoveredIcon === "linkedin" ? "white" : "#46B5D1"
                                                 }
-                                                onMouseEnter={() =>
-                                                    handleMouseEnter("linkedin")
-                                                }
+                                                onMouseEnter={() => handleMouseEnter("linkedin")}
                                                 onMouseLeave={handleMouseLeave}
                                                 size={48}
                                             />
@@ -142,14 +108,8 @@ export const Contact = () => {
                                             rel="noopener noreferrer"
                                         >
                                             <FaGoogle
-                                                color={
-                                                    hoveredIcon === "google"
-                                                        ? "white"
-                                                        : "black"
-                                                }
-                                                onMouseEnter={() =>
-                                                    handleMouseEnter("google")
-                                                }
+                                                color={hoveredIcon === "google" ? "white" : "black"}
+                                                onMouseEnter={() => handleMouseEnter("google")}
                                                 onMouseLeave={handleMouseLeave}
                                                 size={48}
                                             />
@@ -161,13 +121,9 @@ export const Contact = () => {
                                         >
                                             <FaXTwitter
                                                 color={
-                                                    hoveredIcon === "twitter"
-                                                        ? "white"
-                                                        : "black"
+                                                    hoveredIcon === "twitter" ? "white" : "black"
                                                 }
-                                                onMouseEnter={() =>
-                                                    handleMouseEnter("twitter")
-                                                }
+                                                onMouseEnter={() => handleMouseEnter("twitter")}
                                                 onMouseLeave={handleMouseLeave}
                                                 size={48}
                                             />
@@ -179,13 +135,9 @@ export const Contact = () => {
                                         >
                                             <SiLeetcode
                                                 color={
-                                                    hoveredIcon === "leetcode"
-                                                        ? "white"
-                                                        : "#FF5733"
+                                                    hoveredIcon === "leetcode" ? "white" : "#FF5733"
                                                 }
-                                                onMouseEnter={() =>
-                                                    handleMouseEnter("leetcode")
-                                                }
+                                                onMouseEnter={() => handleMouseEnter("leetcode")}
                                                 onMouseLeave={handleMouseLeave}
                                                 size={48}
                                             />
